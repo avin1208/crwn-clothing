@@ -1,4 +1,4 @@
-import Recat from 'react';
+import React from 'react';
 
 import './collection-item.styles.scss';
 
