@@ -8,7 +8,7 @@ import { ReactComponent as Logo }from '../../assets/crown.svg';
 
 import './header.styles.scss';
 
-const Header  = ({currentUser }) => (
+const Header = ({ currentUser }) => (
     <div className='header'>
         <Link className='logo-conyainer' to="/">
              <Logo className='logo' />
@@ -30,6 +30,7 @@ const Header  = ({currentUser }) => (
                     SIGN IN
                 </Link>
             )}
+
         </div>
     </div>
 )
