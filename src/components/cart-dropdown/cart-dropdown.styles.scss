@@ -10,6 +10,11 @@
     right: 0;
     z-index: 5;
     flex-direction: column;
+
+    .empty-message {
+        font-size: 18px;
+        margin: 50px auto;
+    }
     
 
     .cart-items {
@@ -21,5 +26,9 @@
 
     button {
         margin-top: auto;
+
+        &:hover{
+            background-color: rgb(170, 170, 169);
+        }
     }
 }
