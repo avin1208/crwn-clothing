@@ -12,4 +12,3 @@ export const store = createStore(rootReducer, applyMiddleware(...middelewars))
 
 export const persistor = persistStore(store);
 
-export default { store, persistor };

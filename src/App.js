@@ -16,6 +16,8 @@ import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up
 
 import CheckoutPage from './pages/checkout/checkout.component';
 
+import ContactFeedback from './pages/contact-feedback/contact-feedback.component';
+
 import Header from './components/header/header.component.jsx';
 
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
@@ -61,6 +63,7 @@ class App extends React.Component {
       <Switch>
          <Route exact path='/' component={HomePage} />
          <Route path='/shop' component={ShopPage} />
+         <Route path='/contactfeedback' component={ContactFeedback} />
          <Route exact path='/checkout' component={CheckoutPage} />
          <Route 
          exact 
