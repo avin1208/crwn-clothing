@@ -4,9 +4,11 @@ import { persistStore } from 'redux-persist';
 
 import logger from 'redux-logger';
 
+import thunk from 'redux-thunk';
+
 import rootReducer from './root-reducer';
 
-const middelewars = [];
+const middelewars = [thunk];
  
 if (process.env.NODE_ENV === 'development') {
     middelewars.push(logger);
