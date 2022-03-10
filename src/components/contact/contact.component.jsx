@@ -7,7 +7,7 @@ const Contact = () => (
         <h2 className='title'>CONTACT US</h2>
         <div className='details'>
             <span>Name : Avin Mangukiya</span>
-            <span>Mobile No. : +916354038562</span>
+            <span>Mobile No. : +919016362020</span>
             <span>Email Id : avinmangukiya@gmail.com</span>
         </div>
     </div>
